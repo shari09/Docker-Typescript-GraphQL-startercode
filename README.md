@@ -1,4 +1,4 @@
-# Docker-Typescript-GraphQL-startercode
+# Typescript Docker Express + GraphQL Starter Kit
 
 Starter code for Docker, Typescript, GraphQL stack (Postgres as DB in this example)
 
