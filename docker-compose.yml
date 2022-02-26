@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  demo:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8000:8000
+    environment:
+      - PORT=8000
+      - NODE_ENV=development
+    volumes:
+      - ./mount/src:/app/src
+

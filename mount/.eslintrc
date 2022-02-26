@@ -1,0 +1,30 @@
+{
+	"root": true,
+	"env": {
+		"node": true,
+    "es6": true
+	},
+	"plugins": ["@typescript-eslint"],
+	"parserOptions": {
+		"parser": "@typescript-eslint/parser",
+		"sourceType": "module",
+		"ecmaVersion": 2020
+	},
+	"rules": {
+		"no-restricted-syntax": "off",
+		"@typescript-eslint/explicit-module-boundary-types": "off",
+		"no-continue": "off",
+		"@typescript-eslint/no-non-null-assertion": "off",
+		"import/prefer-default-export": "off",
+		"@typescript-eslint/no-var-requires": "off",
+    "eol-last": ["error", "always"],
+    "object-curly-spacing": ["error", "always"],
+		"indent": ["error", 2],
+		"comma-dangle": ["error", "always-multiline"],
+		"no-use-before-define": "off",
+		"prefer-template": "off",
+		"@typescript-eslint/ban-ts-comment": "off",
+		"no-plusplus": "off",
+		"quotes": ["error", "single"]
+	}
+}
